@@ -68,7 +68,7 @@ ls *.<extension of the file you want to search>
 mv <current name> <new name>
 ```
 
-**14.** You can move  a particular particular file inside you current folder or PWD to another destination or another destination to your folder by executing.
+**15.** You can move  a particular particular file inside you current folder or PWD to another destination or another destination to your folder by executing.
 
 ```terminal
 mv <file name> <directory name> 
@@ -76,90 +76,90 @@ OR
 mv <directory name> <file name>
 ```
 
-**15.** You can also remove a particular file  inside you current folder or PWD by executing following command. 
+**16.** You can also remove a particular file  inside you current folder or PWD by executing following command. 
 
 ```terminal
 rm <file name>
 ```
 
-**16.** You can also count the number of char of a particular file  inside you current folder or PWD by executing following command. 
+**17.** You can also count the number of char of a particular file  inside you current folder or PWD by executing following command. 
 
 ```terminal
 wc <file name>
 ```
-**17.** You can also make a new directory by executing following command. 
+**18.** You can also make a new directory by executing following command. 
 
 ```terminal
 mkdir <directory name>
 ```
-**16.** Navigate to the directory 
+**19.** Navigate to the directory 
 
 ```terminal
 cd <directory name>
 ```
-**16.** Move Your Project To New Directory By Executing The Following Command. 
+**20.** Move Your Project To New Directory By Executing The Following Command. 
 
 ```terminal
 mv <folder name> <new directory name>
 OR IN CASE OF DIRECTORY TO DIRECTORY
-mc -rf <directory name> <new directory name>
+mv -rf <directory name> <new directory name>
 ```
 ##So now your project ready to push on git(You can use following steps to upload your project on GitHub).
 <br>
 
-**17.** Create a new branch.
+**21.** Create a new branch.
 
 ```terminal
 git checkout -b <your_branch_name>
 ```
 
-**18.** Add & Commit your changes.
+**22.** Add & Commit your changes.
 
 ```terminal
   git add .
   git commit -m "<your_commit_message>"
 ```
 
-**19.** Push your local branch to the remote repository.
+**23.** Push your local branch to the remote repository.
 
 ```terminal
 git push -u origin <your_branch_name>
 ```
 
-**20.** Create a Pull Request!
+**24.** Create a Pull Request!
 
 <br>
 ## OR YOU CAN UPLOAD IT TO NEW REPO WHICH YOU CREATED IN YOUR GitHub ACCOUNT.
 <br>
 
 
-**21.** Initialze git by executing.
+**25.** Initialze git by executing.
 
 ```terminal
 git init
 ```
-**22.**  Add a README file in your project folder which consists of Description/screenshots about your project by executing.
+**26.**  Add a README file in your project folder which consists of Description/screenshots about your project by executing.
 
 ```terminal
 git add README.md
 ```
-**23.**  Add your all files  by executing.
+**27.**  Add your all files  by executing.
 
 ```terminal
 git add .
 ```
 
-**24.** For branch execute.
+**28.** For branch execute.
 
 ```terminal
 git branch -M <branch name>
 ```
-**25.** Add remote repository by executing.
+**29.** Add remote repository by executing.
 
 ```terminal
 git remote add origin <your remote origin address>
 ```
-**26.** Push your local branch to the remote repository.
+**30.** Push your local branch to the remote repository.
 
 ```terminal
 git push -u origin <your_branch_name>
