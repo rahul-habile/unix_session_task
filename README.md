@@ -104,7 +104,8 @@ mv <folder name> <new directory name>
 OR IN CASE OF DIRECTORY TO DIRECTORY
 mv -rf <directory name> <new directory name>
 ```
-##So now your project ready to push on git(You can use following steps to upload your project on GitHub).
+<br>
+## So now your project ready to push on git(You can use following steps to upload your project on GitHub).
 <br>
 
 **21.** Create a new branch.
