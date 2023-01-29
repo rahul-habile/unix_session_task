@@ -45,7 +45,8 @@ touch <your file name>
 
 ```terminal
 vim <your file name>
-```.
+```
+
 **10.** Type "/" and then the name of the value you would like to edit and press Enter to search for the value in the file.
 <br>
 
