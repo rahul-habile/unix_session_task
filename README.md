@@ -2,7 +2,7 @@
 
 #this is all about how can we clone this repo and then how we setup environment for the repo on our local system.
 
-## HOW TO CONTRIBUTE ? 👷 OR CLONE ? 
+## HOW TO CONTRIBUTE ? 👷 OR CLONE(AND PERFORM OPREATIONS ON FILES IN TERMINAL USING COMMANDS.) ? 
 
 **1.** Fork [this](https://github.com/rahul-habile/unix_session_task/fork) repository.
 
