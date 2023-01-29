@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table hight="50%" width="100%"> <!-- Never use comma between attributes.  -->
+      <tr style="margin-left: 1px">
+        <th colspan="2">
+          <div style="text-align: left;">
+            <img src="./logo_gmail_server_1x.png"> <!-- Inverted comma mistake -->
+          </div>
+
+          <span style="text-align: center;">Gmail</span> <!-- The align attribute is deprecated. You should use the CSS text-align property on the container. -->
+          <div style="text-align: right;">
+            <img src="./download.png" height="50px" > <!-- Align image like this -->
+          </div>
+
+          <input type="text" placeholder="Search.." />
+        </th>
+      </tr>
+      <tr>
+        <td width="25%">
+          <table>
+            <tr>
+              <th style="text-align: left;">Compose Mail</th> <!-- The align attribute is deprecated. You should use the CSS text-align property on the container. (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#align) -->
+            </tr>
+            <tr>
+              <th style="text-align: left;">Folders</th> <!-- The align attribute is deprecated. You should use the CSS text-align property on the container. (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#align) -->
+            </tr>
+            <tr>
+              <th style="text-align: left;"> <!-- The align attribute is deprecated. You should use the CSS text-align property on the container. (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#align) -->
+                <a href="./Inbox.html" target="Inbox">Inbox </a>
+              </th>
+            </tr>
+            <tr>
+              <th style="text-align: left;">Starred star</th> <!-- The align attribute is deprecated. You should use the CSS text-align property on the container. (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#align) -->
+            </tr>
+            <tr>
+              <th style="text-align: left;">Sent Mail</th> <!-- The align attribute is deprecated. You should use the CSS text-align property on the container. (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#align) -->
+            </tr>
+            <tr>
+              <th style="text-align: left;">Drafts (59)</th> <!-- The align attribute is deprecated. You should use the CSS text-align property on the container. (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#align) -->
+            </tr>
+
+            <tr>
+              <th style="text-align: left;">All Mail</th> <!-- The align attribute is deprecated. You should use the CSS text-align property on the container. (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#align) -->
+            </tr>
+
+            <tr>
+              <th style="text-align: left;">Spam (133)</th> <!-- The align attribute is deprecated. You should use the CSS text-align property on the container. (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#align) -->
+            </tr>
+            <tr>
+              <th style="text-align: left;">Trash</th> <!-- The align attribute is deprecated. You should use the CSS text-align property on the container. (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#align) -->
+            </tr>
+            <tr>
+              <th style="text-align: left;">Contacts</th> <!-- The align attribute is deprecated. You should use the CSS text-align property on the container. (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#align) -->
+            </tr>
+          </table>
+        </td>
+        <td>
+          <iframe width="100%" height="388" src="" name="Inbox"></iframe>
+        </td>
+      </tr>
+
+      <tr>
+        <div>
+          <th colspan="2">.Terms .Privacy .Gmail Blog .Google Home</th>
+        </div>
+      </tr>
+    </table>
+  </body>
+</html>
