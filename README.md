@@ -105,8 +105,12 @@ OR IN CASE OF DIRECTORY TO DIRECTORY
 mv -rf <directory name> <new directory name>
 ```
 <br>
-## So now your project ready to push on git(You can use following steps to upload your project on GitHub).
+
+# So now your project ready to push on git(You can use following steps to upload your project on GitHub).
+
 <br>
+
+
 
 **21.** Create a new branch.
 
@@ -130,7 +134,9 @@ git push -u origin <your_branch_name>
 **24.** Create a Pull Request!
 
 <br>
-## OR YOU CAN UPLOAD IT TO NEW REPO WHICH YOU CREATED IN YOUR GitHub ACCOUNT.
+
+# OR YOU CAN UPLOAD IT TO NEW REPO WHICH YOU CREATED IN YOUR GitHub ACCOUNT.
+
 <br>
 
 
